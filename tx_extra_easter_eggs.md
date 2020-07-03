@@ -28,7 +28,7 @@ There are also a variety of URLs including:
 - An article about a [ring size update](http://weuse.cash/2016/03/23/hard-fork/)
 
 ## X is the best X
-There are boatloads of transactions with variations on "X is the best X", a few examples including
+There are boatloads of transactions with variations on "X is the best X", a few examples including:
 - fluffypony is tge best pony ever
 - fluffypony is tha best pony ever
 - fluffypony is the best pony eveB
@@ -105,4 +105,6 @@ There are hundreds of messages, ranging from jokes to vulgarity. MANY include PI
 - `monerogenesismining`
 
 ## Next steps
-While unencrypted paymentIDs are no longer included by the core wallet, they are still allowed by the protocol, and are still occasionally in use today.  Go have some fun - leave me some new easter eggs to find. ;- ) However note that your transactions will be pretty easy to link (especially via the change output) if you send multiple messages from the same wallet, so be mindful. And obviously putting your name or email address in plaintext on a blockchain puts your digital and physical safety at risk, so think twice before putting PII in tx_extra (just because you *can* doesn't mean that you *should*)
+While unencrypted paymentIDs are no longer included by the core wallet, they are still allowed by the protocol, and are still occasionally in use today.  Go have some fun - leave me some new easter eggs to find. ;- ) 
+
+However note that your transactions will be pretty easy to link (especially via the change output) if you send multiple messages from the same wallet, so be mindful. And obviously putting your name or email address in plaintext on a blockchain puts your digital and physical safety at risk, so think twice before putting PII in tx_extra (just because you *can* doesn't mean that you *should*)
