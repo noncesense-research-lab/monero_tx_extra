@@ -1,3 +1,5 @@
+![https://avatars1.githubusercontent.com/u/43632444?s=400&u=d4800b20797847e00c27d6a8ce8c66985ce21df2&v=4](https://avatars1.githubusercontent.com/u/43632444?s=400&u=d4800b20797847e00c27d6a8ce8c66985ce21df2&v=4)
+
 # Monero on-chain easter eggs 
 
 (mostly unencrypted payment IDs in tx_extra)
