@@ -39,10 +39,6 @@ There are boatloads of transactions with variations on "X is the best X", a few 
  
 ## Messages
 There are hundreds of messages, ranging from jokes to vulgarity. MANY include PII such as names, handles, transaction amounts, credit card info, and contact information (not included below):
-- `50X.COM Best Exchange         "ç`
-- `For guns, drugs and prostitutes!`
-- `RouziLovesPLGuitarAndLSMusic`
-- `MONERO.RS 100 XMR Giveaway W#1`
 - `LEALANA 5 XMR RCT( û(bí)ì 1C!2S(`
 - `<*> Joins [#xmrchain] ->Guest1`
 - `  FUCK BINANCE FUCK CHAINALYSIS`
@@ -51,6 +47,10 @@ There are hundreds of messages, ranging from jokes to vulgarity. MANY include PI
 - `1000000 Monero blocks - XMR4ever`
 - `ThisthebestpaymntIDwehaveeverhad`
 - `anycoin040820190441anycoin040820`
+- `50X.COM Best Exchange         "ç`
+- `For guns, drugs and prostitutes!`
+- `RouziLovesPLGuitarAndLSMusic`
+- `MONERO.RS 100 XMR Giveaway W#1`
 - `This is a test transaction`
 - `@@~:good luck in life:~@@`
 - `DEADINSIDETID4`
