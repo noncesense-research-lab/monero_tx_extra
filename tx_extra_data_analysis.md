@@ -17,6 +17,7 @@ Multiple formats observed, including:
 - Repeating YYYY-MM-DD: `2017-05-22DM2017-05-22DM2017-05-`
 - "ID" + YYYYMMDD + tag: ` ID201904060422492k5oCZ1K71J8ZODB9d`
 - YYYYMMDDhhmmss + tag: `20190406042249vxBGF5xa5jqbb3GT1Q`
+
 These dates and PIDS are often repeated, for convenient transaction linkability
 
 ## Email addresses
