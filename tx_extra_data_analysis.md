@@ -2,8 +2,6 @@
 
 # Monero tx_extra data analysis
 
-(mostly unencrypted payment IDs in tx_extra)
-
 ## High-level overview:
 - 250+ messages (see some below)
 - 80+ email addresses
