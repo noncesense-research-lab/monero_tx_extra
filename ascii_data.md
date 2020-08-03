@@ -7,7 +7,7 @@ We present this for the purpose of demonstrating that unencrypted payment IDs ar
 - 350+ dates 
 - 80+ email addresses
 - 10+ URLs
-- 100+ variations on "fluffypony is the best pony ever"
+- 100+ variations on "X is the best X"
 - 250+ messages
 
 ## Examples
