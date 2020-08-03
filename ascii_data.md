@@ -1,13 +1,14 @@
-![https://avatars1.githubusercontent.com/u/43632444?s=400&u=d4800b20797847e00c27d6a8ce8c66985ce21df2&v=4](https://avatars1.githubusercontent.com/u/43632444?s=400&u=d4800b20797847e00c27d6a8ce8c66985ce21df2&v=4)
+# Monero tx_extra data analysis: ASCII data
+Here are some examples of ASCII data we found in unencrypted payment IDs across the Monero blockchain.
 
-# Monero tx_extra data analysis
+We present this for the purpose of demonstrating that unencrypted payment IDs are trivial to read and to use for fingerprinting Monero users.
 
 ## High-level overview:
-- 250+ messages (see some below)
-- 80+ email addresses
 - 350+ dates 
+- 80+ email addresses
 - 10+ URLs
 - 100+ variations on "fluffypony is the best pony ever"
+- 250+ messages
 
 ## Examples
 ### Dates
@@ -16,18 +17,18 @@ Multiple formats observed, including:
 - "ID" + YYYYMMDD + tag: ` ID201904060422492k5oCZ1K71J8ZODB9d`
 - YYYYMMDDhhmmss + tag: `20190406042249vxBGF5xa5jqbb3GT1Q`
 
-These dates and PIDS are often repeated, for convenient transaction linkability
+These dates and PIDS are often repeated, probably for convenient transaction linkability.
 
-## Email addresses
-There are a large number of email addresses, including personal domains, and sereval widely-known cryptocurrency ecosystem contributors. 
+### Email addresses
+There are a large number of email addresses, including personal domains, and several widely-known cryptocurrency ecosystem contributors. 
 
-## URLs 
-There are also a variety of URLs including:
+### URLs 
+There are a variety of URLs including:
 - LinkedIn profiles
 - A [short story](https://pastebin.com/mpJwkf7R)
 - An article about a [ring size update](http://weuse.cash/2016/03/23/hard-fork/)
 
-## X is the best X
+### X is the best X
 There are boatloads of transactions with variations on "X is the best X", a few examples including:
 - fluffypony is tge best pony ever
 - fluffypony is tha best pony ever
@@ -37,7 +38,7 @@ There are boatloads of transactions with variations on "X is the best X", a few 
 - fluffypony&86(G(e best pony etRû
 - xmrscott is the best Scott      
  
-## Messages
+### Messages
 There are hundreds of messages, ranging from jokes to vulgarity. MANY include PII such as names, handles, transaction amounts, credit card info, and contact information (not included below):
 - `LEALANA 5 XMR RCT( û(bí)ì 1C!2S(`
 - `<*> Joins [#xmrchain] ->Guest1`
@@ -105,6 +106,6 @@ There are hundreds of messages, ranging from jokes to vulgarity. MANY include PI
 - `monerogenesismining`
 
 ## Next steps
-While unencrypted paymentIDs are no longer included by the core wallet, they are still allowed by the protocol, and are still occasionally in use today.  Go have some fun - leave me some new easter eggs to find. ;- ) 
+While unencrypted payment IDs are no longer included by the core wallet, they are still allowed by the protocol, and are still occasionally in use today.  Go have some fun - leave us some new easter eggs to find. ;- ) 
 
-However note that your transactions will be pretty easy to link (especially via the change output) if you send multiple messages from the same wallet, so be mindful. And obviously putting your name or email address in plaintext on a blockchain puts your digital and physical safety at risk, so think twice before putting PII in tx_extra (just because you *can* doesn't mean that you *should*)
+However, note that your transactions will be pretty easy to link (especially via the change output) if you send multiple messages from the same wallet, so be mindful. And obviously putting your name or email address in plaintext on a blockchain puts your digital and physical safety at risk, so think twice before putting PII in tx_extra (just because you *can* doesn't mean that you *should*).
