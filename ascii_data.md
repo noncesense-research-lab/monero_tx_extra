@@ -1,7 +1,7 @@
 # Monero tx_extra data analysis: ASCII data
 Here are some examples of ASCII data we found in unencrypted payment IDs across the Monero blockchain.
 
-We present this for the purpose of demonstrating that unencrypted payment IDs are trivial to read and to use for fingerprinting Monero users.
+We present this for the purpose of demonstrating that unencrypted payment IDs are trivial to read and leak information about Monero users.
 
 ## High-level overview:
 - 350+ dates 
@@ -17,7 +17,7 @@ Multiple formats observed, including:
 - "ID" + YYYYMMDD + tag: ` ID201904060422492k5oCZ1K71J8ZODB9d`
 - YYYYMMDDhhmmss + tag: `20190406042249vxBGF5xa5jqbb3GT1Q`
 
-These dates and PIDS are often repeated, probably for convenient transaction linkability.
+These dates and PIDs are often repeated, probably for convenient transaction linkability.
 
 ### Email addresses
 There are a large number of email addresses, including personal domains, and several widely-known cryptocurrency ecosystem contributors. 
@@ -108,4 +108,4 @@ There are hundreds of messages, ranging from jokes to vulgarity. MANY include PI
 ## Next steps
 While unencrypted payment IDs are no longer included by the core wallet, they are still allowed by the protocol, and are still occasionally in use today.  Go have some fun - leave us some new easter eggs to find. ;- ) 
 
-However, note that your transactions will be pretty easy to link (especially via the change output) if you send multiple messages from the same wallet, so be mindful. And obviously putting your name or email address in plaintext on a blockchain puts your digital and physical safety at risk, so think twice before putting PII in tx_extra (just because you *can* doesn't mean that you *should*).
+However, note that your transactions will be pretty easy to link (especially via the change output) if you send multiple messages from the same wallet, so be mindful. And obviously putting your name or email address in plaintext on a blockchain puts your digital and physical safety at risk, so think twice before putting PII in plaintext memo fields (just because you *can* doesn't mean that you *should*).
