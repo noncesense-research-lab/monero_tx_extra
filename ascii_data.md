@@ -1,4 +1,7 @@
 # Monero tx_extra data analysis: ASCII data
+
+Neptune & Isthmus, 2020
+
 Here are some examples of ASCII data we found in unencrypted payment IDs across the Monero blockchain.
 
 We present this for the purpose of demonstrating that unencrypted payment IDs are trivial to read and leak information about Monero users.
