@@ -108,4 +108,4 @@ There are hundreds of messages, ranging from jokes to vulgarity. MANY include PI
 ## Next steps
 While unencrypted payment IDs are no longer included by the core wallet, they are still allowed by the protocol, and are still occasionally in use today.  Go have some fun - leave us some new easter eggs to find. ;- ) 
 
-However, note that your transactions will be pretty easy to link (especially via the change output) if you send multiple messages from the same wallet, so be mindful. And obviously putting your name or email address in plaintext on a blockchain puts your digital and physical safety at risk, so think twice before putting PII in plaintext memo fields (just because you *can* doesn't mean that you *should*).
+However, note that your transactions will be pretty easy to link (especially via the change output) if you send multiple messages from the same wallet, so be mindful. And obviously putting your name or email address in plaintext on a blockchain puts your digital and physical safety at risk, so think twice before putting PII in memo fields (just because you *can* doesn't mean that you *should*).
